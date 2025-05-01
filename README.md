@@ -33,7 +33,7 @@ chmod +x setup.sh
 
 ## Notes
 
-- Input audio is mono and sampled at 16kHz (or 8kHz).
+- Input audio is mono and sampled at 16kHz.
 - Silero VAD model (`silero_vad.onnx`) is included in the `models/` folder.
 - The ONNX Runtime wheel is pre-built for Raspberry Pi ARMv7 architecture (community built, no official support).
 
