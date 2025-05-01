@@ -1,6 +1,6 @@
 # Silero VAD on Raspberry Pi
 
-Real-time Voice Activity Detection (VAD) using the Silero VAD ONNX model, optimized for Raspberry Pi 32-bit OS.
+Real-time Voice Activity Detection (VAD) using the Silero VAD ONNX model for Raspberry Pi 32-bit OS.
 
 
 
@@ -33,7 +33,7 @@ chmod +x setup.sh
 
 ## Notes
 
-- Input audio must be mono and sampled at 16kHz (or 8kHz).
+- Input audio is mono and sampled at 16kHz (or 8kHz).
 - Silero VAD model (`silero_vad.onnx`) is included in the `models/` folder.
 - The ONNX Runtime wheel is pre-built for Raspberry Pi ARMv7 architecture (community built, no official support).
 
