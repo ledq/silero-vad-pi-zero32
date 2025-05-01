@@ -3,7 +3,7 @@ import numpy as np
 import pyaudio
 import queue
 
-session = onnxruntime.InferenceSession("silero_vad.onnx")
+session = onnxruntime.InferenceSession("models/silero_vad.onnx")
 
 
 input_names = [i.name for i in session.get_inputs()]
